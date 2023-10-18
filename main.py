@@ -11,6 +11,14 @@ import tensorflow
 from tensorflow.keras.models import load_model
 import cv2
 
+import tensorflow as tf
+
+if tf.test.gpu_device_name():
+    print("GPU is available")
+else:
+    print("CPU is being used")
+
+
 from flask import Flask
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"   # use CPU only
 UPLOAD_FOLDER = 'static/uploads/'
