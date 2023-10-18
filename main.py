@@ -7,7 +7,6 @@ from werkzeug.utils import secure_filename
 # libraries for model 
 
 import numpy 
-import pandas 
 import tensorflow
 from tensorflow.keras.models import load_model
 import cv2
