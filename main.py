@@ -12,7 +12,7 @@ from tensorflow.keras.models import load_model
 import cv2
 
 from flask import Flask
-
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"   # use CPU only
 UPLOAD_FOLDER = 'static/uploads/'
 
 app = Flask(__name__)
