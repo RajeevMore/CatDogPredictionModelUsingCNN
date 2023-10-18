@@ -2,4 +2,4 @@ flask
 numpy
 scikit-learn
 tensorflow
-cv2
+opencv-python
