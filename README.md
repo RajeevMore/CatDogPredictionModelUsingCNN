@@ -1,1 +1,1 @@
-# flask application to predict cat or dog image Using CNN model
+# Flask Web Application to Predict cat or dog image Using CNN Model
